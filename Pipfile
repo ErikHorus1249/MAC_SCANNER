@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scapy = "==2.4.4"
+netifaces = "==0.10.4"
+ipaddress = "==1.0.23"
+celery = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
