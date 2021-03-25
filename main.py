@@ -111,7 +111,6 @@ def get_Default_Interface():
     gws=netifaces.gateways()
     return gws['default'][netifaces.AF_INET][1]
 
-
 @shared_task
 def main():
     start_time = time.time()
